@@ -25,5 +25,12 @@ def password_generator():
         # Appending the variable to the empty list
         password.append(character_random)
 
-        password = "".join(password)
-        return password
+    password = "".join(password)
+    return password
+    
+def run():
+    password = password_generator()
+    print("Your new password is " + password)
+
+if __name__ == "__main__":
+    run()
