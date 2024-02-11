@@ -10,6 +10,7 @@ def run():
 
     # Main loop
     while selected_number != random_number:
+        # If clause
         if selected_number < random_number:
             print("Select a higher number")
         else:
