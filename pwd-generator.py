@@ -5,7 +5,7 @@ import random
 def password_generator():
     # Create a list with capital letters
     capital_letters = ["A", "B", "C", "D", "E", "F", "G"]
-    # Create a list with lower case letters
+    # Create a list with lowercase letters
     lower_case = ["a", "b", "c", "d", "e", "f", "g"]
     # Create a list with special characters at random
     sp_characters = ["@", "/", "=", "!", "#", "$", "%"]
